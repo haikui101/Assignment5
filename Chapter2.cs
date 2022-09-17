@@ -5,9 +5,9 @@ int number = int.Parse(Console.ReadLine());
 if (number > 0 && number < 1000) 
 {
     Console.WriteLine("Positive number.");
-} else if (number > 1000)
+} else if (number > 1000) 
 {
     Console.WriteLine("Big number");
 } else if (number < 0)
-{
     Console.WriteLine("Negative number.");
+{
